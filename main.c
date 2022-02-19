@@ -1,5 +1,7 @@
+#include <stdbool.h>
 int main() {
-   If Minecraft {
-   GENERATE (block)
-}
+   bool Minecraft = true;
+   if bool Minecraft = true {
+   GENERATE (block);
+   }
 }
