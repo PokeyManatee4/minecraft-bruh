@@ -2,6 +2,10 @@
 int main() {
    bool Minecraft = true;
    if bool Minecraft = true {
-   GENERATE (block);
+   generate();
    }
+}
+
+void generate() {
+  printf("Placed Block");
 }
