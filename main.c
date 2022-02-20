@@ -2,7 +2,7 @@
 #include <stdbool.h>
 int main() {
    bool Minecraft = true;
-   if _Bool Minecraft = true {
+   if (_Bool Minecraft = true) {
    generate();
    }
 }
