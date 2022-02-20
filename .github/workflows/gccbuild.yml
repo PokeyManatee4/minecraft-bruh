@@ -9,4 +9,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: gcc main.c
+      run: gcc main.c -Wall -std=c99 -o minecraft -lm && ./minecraft
