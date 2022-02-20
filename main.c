@@ -7,5 +7,5 @@ int main() {
 }
 
 void generate(string number) {
-  printf("Placed Block *NUMBER*");
+  printf("Placed Block ");
 }
