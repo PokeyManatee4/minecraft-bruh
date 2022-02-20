@@ -5,7 +5,7 @@ int main() {
   printf("Placed Block");
 }
    bool Minecraft = true;
-   if (boolean)( Minecraft = true) {
+   if (boolean)( Minecraft = true); {
    generate();
    }
 }
