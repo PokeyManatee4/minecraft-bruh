@@ -6,6 +6,6 @@ int main() {
    }
 }
 
-void generate(string number) {
+void generate() {
   printf("Placed Block ");
 }
