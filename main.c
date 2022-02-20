@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdbool.h>
-#define boolean _Bool
+#define _Boolean _Bool
 int main() {
    void generate() {
   printf("Placed Block");
 }
    bool Minecraft = true;
-   if (boolean)( Minecraft = true); {
+   if _Boolean Minecraft = true); {
    generate();
    }
 }
