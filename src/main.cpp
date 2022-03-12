@@ -6,5 +6,5 @@ extern "C" int main() {
     
     scanf("%d", &number);
 
-    printf("You entered: %d, We Placed %d", number, number);
+    printf("You entered: %d, We Placed %d", number);
 }
