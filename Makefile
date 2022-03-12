@@ -5,7 +5,7 @@ CODEDIR = src
 all: build
 
 build:
-	g++ $(CODEDIR)/main.c -o $(OBJDIR)/Game.asm
+	g++ $(CODEDIR)/main.cpp -o $(OUTDIR)/Game
 	@rm -r ./$(OBJDIR)
 
 setup:
