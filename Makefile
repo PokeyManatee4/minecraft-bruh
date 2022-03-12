@@ -5,9 +5,7 @@ CODEDIR = src
 all: build
 
 build:
-	@sudo apt install nasm
-	g++ -S $(CODEDIR)/main.c -o $(OBJDIR)/Game.asm
-	nasm $(OBJDIR)/Game.asm -f elf64 -o $(OUTDIR)/LinuxGame
+	g++ $(CODEDIR)/main.c -o $(OBJDIR)/Game.asm
 	@rm -r ./$(OBJDIR)
 
 setup:
