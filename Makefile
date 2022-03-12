@@ -6,8 +6,8 @@ all: build
 
 build:
 	@sudo apt install nasm
-	gcc -S $(CODEDIR)/main.c -o $(OBJDIR)/Game.s
-	nasm $(OBJDIR)/Game.s -f elf64 -o $(OUTDIR)/LinuxGame
+	gcc -S $(CODEDIR)/main.c -o $(OBJDIR)/Game.asm
+	nasm $(OBJDIR)/Game.asm -f elf64 -o $(OUTDIR)/LinuxGame
 	@rm -r ./$(OBJDIR)
 
 setup:
