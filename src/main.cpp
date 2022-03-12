@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {   
+extern "C" void main() {   
     int number;
    
     printf("Enter A Number Of Blocks To Place: ;-;");  
