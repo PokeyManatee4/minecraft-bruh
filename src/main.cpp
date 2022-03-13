@@ -1,10 +1,23 @@
 #include <stdio.h>
-extern "C" int main() {   
+#include <stdlib.h>
+#include <time.h> 
+int main() {   
     int number;
-   
-    printf("Enter A Number Of Blocks To Place: ;-;");  
+    int iSecret;
+    int i;
+    int plus;
+    
+    printf("Enter A Number Of Blocks To Place:");  
     
     scanf("%d", &number);
+    
+    srand (time(NULL));
+    
+    iSecret = rand() % number + 1;
+    
+    i = rand() % iSecret + iSecret;
+    
+    plus = rand() % i + iSecret;
 
-    printf("You entered: %d, We Placed %d", number);
+    printf("You entered: %d, We Placed %d", number, number+plus);
 }
